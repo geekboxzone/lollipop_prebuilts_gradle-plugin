@@ -8,26 +8,8 @@
   <dependencies>
     <dependency>
       <groupId>com.android.tools.build</groupId>
-      <artifactId>builder-model</artifactId>
+      <artifactId>builder-test-api</artifactId>
       <version>0.7.4</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.android.tools</groupId>
-      <artifactId>common</artifactId>
-      <version>22.4.2</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.android.tools</groupId>
-      <artifactId>testutils</artifactId>
-      <version>22.4.2</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.android.tools</groupId>
-      <artifactId>sdklib</artifactId>
-      <version>22.4.2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -37,8 +19,8 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.android.tools.build</groupId>
-      <artifactId>manifest-merger</artifactId>
+      <groupId>com.android.tools</groupId>
+      <artifactId>common</artifactId>
       <version>22.4.2</version>
       <scope>compile</scope>
     </dependency>
@@ -49,6 +31,18 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
+      <groupId>com.android.tools.ddms</groupId>
+      <artifactId>ddmlib</artifactId>
+      <version>22.4.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.tools</groupId>
+      <artifactId>testutils</artifactId>
+      <version>22.4.2</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
@@ -56,13 +50,19 @@
     </dependency>
     <dependency>
       <groupId>com.android.tools.build</groupId>
-      <artifactId>builder-test-api</artifactId>
+      <artifactId>builder-model</artifactId>
       <version>0.7.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.android.tools.ddms</groupId>
-      <artifactId>ddmlib</artifactId>
+      <groupId>com.android.tools.build</groupId>
+      <artifactId>manifest-merger</artifactId>
+      <version>22.4.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.tools</groupId>
+      <artifactId>sdklib</artifactId>
       <version>22.4.2</version>
       <scope>compile</scope>
     </dependency>
