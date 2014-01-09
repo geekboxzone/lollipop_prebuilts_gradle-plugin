@@ -8,9 +8,9 @@
   <dependencies>
     <dependency>
       <groupId>com.android.tools</groupId>
-      <artifactId>testutils</artifactId>
+      <artifactId>sdklib</artifactId>
       <version>22.4.2</version>
-      <scope>test</scope>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
@@ -20,9 +20,9 @@
     </dependency>
     <dependency>
       <groupId>com.android.tools</groupId>
-      <artifactId>sdklib</artifactId>
+      <artifactId>testutils</artifactId>
       <version>22.4.2</version>
-      <scope>compile</scope>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 </project>

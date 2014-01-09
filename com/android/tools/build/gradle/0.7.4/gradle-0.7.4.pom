@@ -7,9 +7,9 @@
   <version>0.7.4</version>
   <dependencies>
     <dependency>
-      <groupId>com.android.tools.build</groupId>
-      <artifactId>builder</artifactId>
-      <version>0.7.4</version>
+      <groupId>com.android.tools.lint</groupId>
+      <artifactId>lint</artifactId>
+      <version>22.4.2</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -19,9 +19,9 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>com.android.tools.lint</groupId>
-      <artifactId>lint</artifactId>
-      <version>22.4.2</version>
+      <groupId>com.android.tools.build</groupId>
+      <artifactId>builder</artifactId>
+      <version>0.7.4</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
