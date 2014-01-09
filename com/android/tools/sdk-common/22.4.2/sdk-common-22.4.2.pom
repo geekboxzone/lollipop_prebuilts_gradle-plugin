@@ -8,6 +8,12 @@
   <dependencies>
     <dependency>
       <groupId>com.android.tools</groupId>
+      <artifactId>testutils</artifactId>
+      <version>22.4.2</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.tools</groupId>
       <artifactId>sdklib</artifactId>
       <version>22.4.2</version>
       <scope>compile</scope>
@@ -16,12 +22,6 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.android.tools</groupId>
-      <artifactId>testutils</artifactId>
-      <version>22.4.2</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
