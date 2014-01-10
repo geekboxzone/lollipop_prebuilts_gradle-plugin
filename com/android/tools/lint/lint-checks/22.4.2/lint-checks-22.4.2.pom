@@ -7,10 +7,10 @@
   <version>22.4.2</version>
   <dependencies>
     <dependency>
-      <groupId>com.android.tools</groupId>
-      <artifactId>testutils</artifactId>
+      <groupId>com.android.tools.lint</groupId>
+      <artifactId>lint-api</artifactId>
       <version>22.4.2</version>
-      <scope>test</scope>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>junit</groupId>
@@ -19,10 +19,10 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>com.android.tools.lint</groupId>
-      <artifactId>lint-api</artifactId>
+      <groupId>com.android.tools</groupId>
+      <artifactId>testutils</artifactId>
       <version>22.4.2</version>
-      <scope>compile</scope>
+      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.ow2.asm</groupId>
