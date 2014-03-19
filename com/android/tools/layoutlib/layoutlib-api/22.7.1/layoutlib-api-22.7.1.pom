@@ -7,15 +7,15 @@
   <version>22.7.1</version>
   <dependencies>
     <dependency>
-      <groupId>net.sf.kxml</groupId>
-      <artifactId>kxml2</artifactId>
-      <version>2.3.0</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>com.android.tools</groupId>
       <artifactId>common</artifactId>
       <version>22.7.1</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>net.sf.kxml</groupId>
+      <artifactId>kxml2</artifactId>
+      <version>2.3.0</version>
       <scope>compile</scope>
     </dependency>
     <dependency>

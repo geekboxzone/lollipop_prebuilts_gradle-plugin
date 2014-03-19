@@ -7,15 +7,15 @@
   <version>22.7.1</version>
   <dependencies>
     <dependency>
-      <groupId>com.android.tools</groupId>
-      <artifactId>testutils</artifactId>
-      <version>22.7.1</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
       <groupId>org.eclipse.jdt.core.compiler</groupId>
       <artifactId>ecj</artifactId>
       <version>4.2.2</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.tools.lint</groupId>
+      <artifactId>lint-checks</artifactId>
+      <version>22.7.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -25,10 +25,10 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>com.android.tools.lint</groupId>
-      <artifactId>lint-checks</artifactId>
+      <groupId>com.android.tools</groupId>
+      <artifactId>testutils</artifactId>
       <version>22.7.1</version>
-      <scope>compile</scope>
+      <scope>test</scope>
     </dependency>
     <dependency>
       <groupId>org.easymock</groupId>
