@@ -8,25 +8,13 @@
   <dependencies>
     <dependency>
       <groupId>com.android.tools.build</groupId>
-      <artifactId>builder-model</artifactId>
-      <version>0.9.3</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.android.tools</groupId>
-      <artifactId>sdklib</artifactId>
-      <version>22.7.3</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.android.tools.build</groupId>
       <artifactId>builder-test-api</artifactId>
       <version>0.9.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.android.tools.ddms</groupId>
-      <artifactId>ddmlib</artifactId>
+      <groupId>com.android.tools.build</groupId>
+      <artifactId>manifest-merger</artifactId>
       <version>22.7.3</version>
       <scope>compile</scope>
     </dependency>
@@ -37,20 +25,8 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>3.8.1</version>
-      <scope>test</scope>
-    </dependency>
-    <dependency>
-      <groupId>com.android.tools.build</groupId>
-      <artifactId>manifest-merger</artifactId>
-      <version>22.7.3</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>com.android.tools</groupId>
-      <artifactId>sdk-common</artifactId>
+      <artifactId>sdklib</artifactId>
       <version>22.7.3</version>
       <scope>compile</scope>
     </dependency>
@@ -61,9 +37,21 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>org.bouncycastle</groupId>
-      <artifactId>bcpkix-jdk15on</artifactId>
-      <version>1.48</version>
+      <groupId>com.android.tools</groupId>
+      <artifactId>sdk-common</artifactId>
+      <version>22.7.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.tools.build</groupId>
+      <artifactId>builder-model</artifactId>
+      <version>0.9.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
@@ -71,6 +59,18 @@
       <artifactId>testutils</artifactId>
       <version>22.7.3</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.tools.ddms</groupId>
+      <artifactId>ddmlib</artifactId>
+      <version>22.7.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.bouncycastle</groupId>
+      <artifactId>bcpkix-jdk15on</artifactId>
+      <version>1.48</version>
+      <scope>compile</scope>
     </dependency>
   </dependencies>
 </project>

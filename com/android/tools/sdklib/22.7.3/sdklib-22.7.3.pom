@@ -13,12 +13,6 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.android.tools</groupId>
-      <artifactId>dvlib</artifactId>
-      <version>22.7.3</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>org.apache.httpcomponents</groupId>
       <artifactId>httpmime</artifactId>
       <version>4.1</version>
@@ -33,6 +27,12 @@
     <dependency>
       <groupId>com.android.tools.layoutlib</groupId>
       <artifactId>layoutlib-api</artifactId>
+      <version>22.7.3</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.tools</groupId>
+      <artifactId>dvlib</artifactId>
       <version>22.7.3</version>
       <scope>compile</scope>
     </dependency>
