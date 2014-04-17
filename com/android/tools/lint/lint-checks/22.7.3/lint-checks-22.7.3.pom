@@ -13,16 +13,16 @@
       <scope>test</scope>
     </dependency>
     <dependency>
-      <groupId>com.android.tools.lint</groupId>
-      <artifactId>lint-api</artifactId>
-      <version>22.7.3</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>com.android.tools</groupId>
       <artifactId>testutils</artifactId>
       <version>22.7.3</version>
       <scope>test</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.tools.lint</groupId>
+      <artifactId>lint-api</artifactId>
+      <version>22.7.3</version>
+      <scope>compile</scope>
     </dependency>
     <dependency>
       <groupId>org.ow2.asm</groupId>
