@@ -13,12 +13,6 @@
       <scope>compile</scope>
     </dependency>
     <dependency>
-      <groupId>com.android.tools.build</groupId>
-      <artifactId>builder-model</artifactId>
-      <version>0.9.3</version>
-      <scope>compile</scope>
-    </dependency>
-    <dependency>
       <groupId>com.android.tools.external.lombok</groupId>
       <artifactId>lombok-ast</artifactId>
       <version>0.2.2</version>
@@ -28,6 +22,12 @@
       <groupId>org.ow2.asm</groupId>
       <artifactId>asm-tree</artifactId>
       <version>4.0</version>
+      <scope>compile</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.android.tools.build</groupId>
+      <artifactId>builder-model</artifactId>
+      <version>0.9.3</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
